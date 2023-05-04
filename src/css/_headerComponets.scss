@@ -115,7 +115,7 @@
         position: sticky;
         top: 0;
         height: 100%;
-        padding: 20px 0;
+        padding: 5px 0;
         z-index: 99;
     }
     .main-header .max-width-header .top-header input {
@@ -130,5 +130,8 @@
 
     .main-header .max-width-header .top-header .menu{
         display:block;
+        height: 50px;
+        width:50px;
+
     }
   }

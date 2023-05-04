@@ -2,6 +2,7 @@ import React from 'react';
 import footerLogo from '../img/footer01.png'
 import HeaderDropDown from './HeaderDropDown'
 import '../css/style.css'
+
 function SideNav({sideNav}) {
     let sideNavList = ['Hardware','Services','News','Shop','Support']
     const sortnav =  sideNavList.map((list)=>{

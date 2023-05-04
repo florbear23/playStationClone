@@ -106,6 +106,6 @@
 
   @media only screen and (max-width: 420px){
     .slider {
-      height: 800px;
+      height:100vh;
     }
   }

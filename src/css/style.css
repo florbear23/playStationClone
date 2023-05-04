@@ -109,7 +109,7 @@
     position: sticky;
     top: 0;
     height: 100%;
-    padding: 20px 0;
+    padding: 5px 0;
     z-index: 99;
   }
   .main-header .max-width-header .top-header input {
@@ -123,6 +123,8 @@
   }
   .main-header .max-width-header .top-header .menu {
     display: block;
+    height: 50px;
+    width: 50px;
   }
 }
 .sidebar {
@@ -220,6 +222,7 @@ select option {
   flex-direction: column;
   padding-top: 50px;
   background-color: #E7F0FF;
+  text-align: center;
 }
 .new--realease h2 {
   font-size: 30px;
@@ -281,6 +284,7 @@ select option {
   justify-content: flex-start;
   flex-direction: column;
   padding-top: 65px;
+  text-align: center;
 }
 .coming-soon-container h2 {
   font-size: 30px;
@@ -331,6 +335,7 @@ select option {
   padding: 30px 10px;
 }
 .productFull div {
+  margin-top: 30px;
   max-width: 1100px;
   width: 100%;
   min-height: 399px;
@@ -354,9 +359,10 @@ select option {
   justify-content: center;
   flex-wrap: wrap;
   row-gap: 10px;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  -moz-column-gap: 36px;
+       column-gap: 36px;
   padding: 10px;
+  margin-top: 30px;
 }
 .productFull div .card-product .product-cards {
   display: flex;
@@ -411,6 +417,11 @@ select option {
   opacity: 0.9;
 }
 
+@media only screen and (max-width: 768px) {
+  .productFull div {
+    text-align: center;
+  }
+}
 .blog-main-container {
   width: 100%;
   min-height: 691px;

@@ -8,7 +8,7 @@
     padding: 30px 10px;
 
     div{
-        
+        margin-top: 30px;
         max-width: 1100px;
         width: 100%;
         min-height: 399px;
@@ -34,8 +34,9 @@
             justify-content: center;
             flex-wrap: wrap;
             row-gap: 10px;
-            column-gap: 10px;
+            column-gap: 36px;
             padding: 10px;
+            margin-top: 30px;
 
             .product-cards{
                 display: flex;
@@ -104,4 +105,10 @@
     }
 
 
+}
+
+@media only screen and (max-width: 768px){
+    .productFull div{
+       text-align: center;
+    }
 }
